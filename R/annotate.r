@@ -13,7 +13,7 @@
 #' @param color color of the label
 #' @param size font size
 #' @export
-sg_annotate <- function(sg, label, x, y, color="black", size=12) {
+sg_annotate <- function(sg, label, x, y, color="black", size=20) {
 
   if (inherits(x, "Date")) { x <- format(x, "%Y-%m-%d") }
 
